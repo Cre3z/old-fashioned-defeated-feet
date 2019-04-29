@@ -5,6 +5,7 @@
 // never mutate the store but always copy and return a new copy of the store
 
 function comments(state = [], action) {
+  console.log("commented on a post");
   return state;
 }
 export default comments;

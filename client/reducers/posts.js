@@ -5,6 +5,7 @@
 // never mutate the store but always copy and return a new copy of the store
 
 function posts(state = [], action) {
+  console.log("the post gets updated");
   return state;
 }
 export default posts;

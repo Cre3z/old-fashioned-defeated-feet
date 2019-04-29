@@ -6,7 +6,7 @@ export default class Main extends React.Component {
     return (
       <div>
         <h1>
-          <Link to="/">reduxatagram</Link>
+          <Link to="/">Reduxstagram</Link>
         </h1>
         {React.cloneElement(this.props.children, this.props)}
       </div>
