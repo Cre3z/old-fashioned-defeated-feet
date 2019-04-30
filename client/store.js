@@ -20,7 +20,7 @@ const store = createStore(rootReducer, defaultState);
 export const history = syncHistoryWithStore(browserHistory, store);
 
 if (module.hot) {
-  module.hot.accept("./redcuers/", () => {
+  module.hot.accept("./reducers/", () => {
     const nextRootReducer = require("./reducers/index").default;
     store.replaceReducer(nextRootReducer);
   });
